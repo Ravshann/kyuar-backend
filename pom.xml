@@ -18,6 +18,14 @@
         <java.version>1.8</java.version>
     </properties>
 
+<!--    for qr code lib-->
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
     <dependencies>
 
         <dependency>
@@ -41,6 +49,12 @@
             <version>0.9.1</version>
         </dependency>
 
+<!--        qr code lib-->
+        <dependency>
+            <groupId>com.github.kenglxn.qrgen</groupId>
+            <artifactId>javase</artifactId>
+            <version>2.6.0</version>
+        </dependency>
 
         <dependency>
             <groupId>javax.validation</groupId>
